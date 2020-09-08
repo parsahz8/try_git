@@ -17,4 +17,8 @@ def is_prime(n):
 
 
 print (is_prime(88))
-s
+list_prime_1to100 = []
+for i in range (1,101):
+    if is_prime(i):
+        list_prime_1to100.append(i)
+     
