@@ -15,10 +15,10 @@ def is_prime(n):
             break
     return t
 
+def list_Prime(n1,n2):   
+    list_prime = []
+    for i in range (n1,n2):
+        if is_prime(i):
+            list_prime.append(i)
+    return list_prime
 
-print (is_prime(88))
-list_prime_1to100 = []
-for i in range (1,101):
-    if is_prime(i):
-        list_prime_1to100.append(i)
-     
